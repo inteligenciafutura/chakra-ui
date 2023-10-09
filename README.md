@@ -46,4 +46,19 @@ Next.js has built-in TypeScript declarations, so we'll get autocompletion for Ne
 
 A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
 
-![alt tag](https://github.com/inteligenciafutura/etaxAndroid2023/blob/main/Capturas/etaxEstado.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui1.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui2.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui3.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui4.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui5.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui6.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui7.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui8.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui9.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui10.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui11.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui12.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui13.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui14.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui15.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui16.png)
