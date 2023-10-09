@@ -1,24 +1,8 @@
-import Link from 'next/link'
 import Layout from '../components/Layout'
 import {
     Image,
-    Button,
-    useDisclosure,
-    Input,
-    RadioGroup,
     Stack,
-    Radio,
     Box,
-    FormLabel,
-    InputGroup,
-    InputLeftAddon,
-    InputRightAddon,
-    Select,
-    Textarea,
-    Text,
-    FormControl,
-    Wrap,
-    WrapItem
 } from '@chakra-ui/react'
 import Navbar from "../components/NavbarPrincipal";
 import React from 'react';

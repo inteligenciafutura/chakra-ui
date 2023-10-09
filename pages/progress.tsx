@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Layout from '../components/Layout'
 import { Progress, Stack } from '@chakra-ui/react'
 import Navbar from "../components/NavbarPrincipal";

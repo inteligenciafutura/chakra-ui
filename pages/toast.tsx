@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Layout from '../components/Layout'
 import { useToast, Button, Box, Wrap, WrapItem } from '@chakra-ui/react'
 import Navbar from "../components/NavbarPrincipal";

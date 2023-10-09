@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Layout from '../components/Layout'
 import {
     Modal,
@@ -14,13 +13,7 @@ import {
     RadioGroup,
     Stack,
     Radio,
-    Box,
     FormLabel,
-    InputGroup,
-    InputLeftAddon,
-    InputRightAddon,
-    Select,
-    Textarea,
     Text,
     FormControl
 } from '@chakra-ui/react'
