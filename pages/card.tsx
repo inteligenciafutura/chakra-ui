@@ -42,7 +42,7 @@ const CardsPage = () => (
             </CardHeader>
 
             <CardBody>
-                <Stack divider={<StackDivider />} spacing='4'>
+                <Stack divider={<StackDivider />} gap='4'>
                     <Box>
                         <Heading size='xs' textTransform='uppercase'>
                             Summary
@@ -81,7 +81,7 @@ const CardsPage = () => (
                     alt='Green double couch with wooden legs'
                     borderRadius='lg'
                 />
-                <Stack mt='6' spacing='3'>
+                <Stack mt='6' gap='3'>
                     <Heading size='md'>Living room Sofa</Heading>
                     <Text>
                         This sofa is perfect for modern tropical spaces, baroque inspired
@@ -95,7 +95,7 @@ const CardsPage = () => (
             </CardBody>
             <Divider />
             <CardFooter>
-                <ButtonGroup spacing='2'>
+                <ButtonGroup gap='2'>
                     <Button variant='solid' colorScheme='blue'>
                         Buy now
                     </Button>
@@ -144,7 +144,7 @@ const CardsPage = () => (
 
         <Card maxW='md'>
             <CardHeader>
-                <Flex spacing='4'>
+                <Flex gap='4'>
                     <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
                         <Avatar name='Segun Adebayo' src='https://bit.ly/sage-adebayo' />
 
@@ -198,56 +198,56 @@ const CardsPage = () => (
         <br></br>
         <br></br>
 
-        <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
-  <Card>
-    <CardHeader>
-      <Heading size='md'> Customer dashboard</Heading>
-    </CardHeader>
-    <CardBody>
-      <Text>View a summary of all your customers over the last month.</Text>
-    </CardBody>
-    <CardFooter>
-      <Button>View here</Button>
-    </CardFooter>
-  </Card>
-  <Card>
-    <CardHeader>
-      <Heading size='md'> Customer dashboard</Heading>
-    </CardHeader>
-    <CardBody>
-      <Text>View a summary of all your customers over the last month.</Text>
-    </CardBody>
-    <CardFooter>
-      <Button>View here</Button>
-    </CardFooter>
-  </Card>
-  <Card>
-    <CardHeader>
-      <Heading size='md'> Customer dashboard</Heading>
-    </CardHeader>
-    <CardBody>
-      <Text>View a summary of all your customers over the last month.</Text>
-    </CardBody>
-    <CardFooter>
-      <Button>View here</Button>
-    </CardFooter>
-  </Card>
-</SimpleGrid>
+        <SimpleGrid gap={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
+            <Card>
+                <CardHeader>
+                    <Heading size='md'> Customer dashboard</Heading>
+                </CardHeader>
+                <CardBody>
+                    <Text>View a summary of all your customers over the last month.</Text>
+                </CardBody>
+                <CardFooter>
+                    <Button>View here</Button>
+                </CardFooter>
+            </Card>
+            <Card>
+                <CardHeader>
+                    <Heading size='md'> Customer dashboard</Heading>
+                </CardHeader>
+                <CardBody>
+                    <Text>View a summary of all your customers over the last month.</Text>
+                </CardBody>
+                <CardFooter>
+                    <Button>View here</Button>
+                </CardFooter>
+            </Card>
+            <Card>
+                <CardHeader>
+                    <Heading size='md'> Customer dashboard</Heading>
+                </CardHeader>
+                <CardBody>
+                    <Text>View a summary of all your customers over the last month.</Text>
+                </CardBody>
+                <CardFooter>
+                    <Button>View here</Button>
+                </CardFooter>
+            </Card>
+        </SimpleGrid>
 
-<br></br>
-<br></br>
+        <br></br>
+        <br></br>
 
-<Card align='center'>
-  <CardHeader>
-    <Heading size='md'> Customer dashboard</Heading>
-  </CardHeader>
-  <CardBody>
-    <Text>View a summary of all your customers over the last month.</Text>
-  </CardBody>
-  <CardFooter>
-    <Button colorScheme='blue'>View here</Button>
-  </CardFooter>
-</Card>
+        <Card align='center'>
+            <CardHeader>
+                <Heading size='md'> Customer dashboard</Heading>
+            </CardHeader>
+            <CardBody>
+                <Text>View a summary of all your customers over the last month.</Text>
+            </CardBody>
+            <CardFooter>
+                <Button colorScheme='blue'>View here</Button>
+            </CardFooter>
+        </Card>
 
     </Layout>
 )

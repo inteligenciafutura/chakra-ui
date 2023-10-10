@@ -116,7 +116,7 @@ function BasicUsage() {
           onClose={onClose}
           finalFocusRef={btnRef}
           isOpen={isOpen}
-          scrollBehavior={scrollBehavior}
+          scrollBehavior='inside'
         >
           <ModalOverlay />
           <ModalContent>

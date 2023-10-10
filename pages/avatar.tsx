@@ -9,13 +9,15 @@ import {
 import Navbar from "../components/NavbarPrincipal";
 import React from 'react';
 
-
+// Componente AvatarPage
 const AvatarPage = () => (
     <Layout title="About | Next.js + TypeScript Example">
         <Navbar />
         <h1>AvatarPage</h1>
+         {/* Wrap es un componente que organiza sus hijos en una disposición de envoltura flexible. */}
         <Wrap>
             <WrapItem>
+            {/* Avatar es un componente que muestra la imagen de un usuario. */}
                 <Avatar name='Dan Abrahmov' src='https://bit.ly/dan-abramov' />
             </WrapItem>
             <WrapItem>
@@ -43,6 +45,7 @@ const AvatarPage = () => (
 
         <Wrap>
             <WrapItem>
+            {/* El prop size indica el tamaño del Avatar */}
                 <Avatar size='2xs' name='Dan Abrahmov' src='https://bit.ly/dan-abramov' />
             </WrapItem>
             <WrapItem>
@@ -75,6 +78,7 @@ const AvatarPage = () => (
 
         <br></br>
         <br></br>
+        {/* Stack es un componente que organiza sus hijos en una pila. */}
         <Stack direction='row'>
             <Avatar name='Oshigaki Kisame' src='https://bit.ly/broken-link' />
             <Avatar name='Sasuke Uchiha' src='https://bit.ly/broken-link' />
@@ -84,6 +88,7 @@ const AvatarPage = () => (
         <br></br>
         <br></br>
 
+        {/* AvatarGroup es un componente que muestra un grupo de avatars. */}
         <AvatarGroup size='md' max={2}>
             <Avatar name='Ryan Florence' src='https://bit.ly/ryan-florence' />
             <Avatar name='Segun Adebayo' src='https://bit.ly/sage-adebayo' />
@@ -94,9 +99,6 @@ const AvatarPage = () => (
 
         <br></br>
         <br></br>
-
-        
-
 
     </Layout>
 )

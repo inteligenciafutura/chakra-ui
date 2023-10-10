@@ -9,15 +9,15 @@ export default function NavbarPrincipal() {
           <Icon name="home" />
           Home
         </Link>
-        <Link href="/about">
+        <Link href="about.html">
           <Icon name="info" />
           About
         </Link>
-        <Link href="/progress">
+        <Link href="progress.html">
           <Icon name="mail" />
           Progress
         </Link>
-        <Link href="/spiner">
+        <Link href="spiner.html">
           <Icon name="mail" />
           Spiner
         </Link>

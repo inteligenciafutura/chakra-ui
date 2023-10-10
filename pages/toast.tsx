@@ -54,7 +54,7 @@ function ToastStatusExample() {
                         onClick={() =>
                             toast({
                                 title: `${status} toast`,
-                                status: status,
+                                status: 'error',
                                 isClosable: true,
                             })
                         }
@@ -138,7 +138,7 @@ function PositionExample() {
                         onClick={() =>
                             toast({
                                 title: `${position} toast`,
-                                position: position,
+                                position: 'bottom',
                                 isClosable: true,
                             })
                         }

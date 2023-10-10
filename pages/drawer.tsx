@@ -66,7 +66,7 @@ function DrawerExample() {
   
     return (
       <>
-        <RadioGroup defaultValue={placement} onChange={setPlacement}>
+        <RadioGroup defaultValue='right' onChange={setPlacement}>
           <Stack direction='row' mb='4'>
             <Radio value='top'>Top</Radio>
             <Radio value='right'>Right</Radio>
@@ -77,7 +77,7 @@ function DrawerExample() {
         <Button colorScheme='blue' onClick={onOpen}>
           Open
         </Button>
-        <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
+        <Drawer placement='right' onClose={onClose} isOpen={isOpen}>
           <DrawerOverlay />
           <DrawerContent>
             <DrawerHeader borderBottomWidth='1px'>Basic Drawer</DrawerHeader>
@@ -115,7 +115,7 @@ function DrawerExample() {
             </DrawerHeader>
   
             <DrawerBody>
-              <Stack spacing='24px'>
+              <Stack gap='24px'>
                 <Box>
                   <FormLabel htmlFor='username'>Name</FormLabel>
                   <Input
