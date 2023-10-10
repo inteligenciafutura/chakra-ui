@@ -62,3 +62,4 @@ A `type-check` script is also added to `package.json`, which runs TypeScript's `
 ![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui14.png)
 ![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui15.png)
 ![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui16.png)
+![alt tag](https://github.com/inteligenciafutura/chakra-ui/blob/main/capturas/ui17.png)

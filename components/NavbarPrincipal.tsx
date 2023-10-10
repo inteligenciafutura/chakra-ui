@@ -61,6 +61,10 @@ export default function NavbarPrincipal() {
           <Icon name="mail" />
           Button
         </Link>
+        <Link href="/grid">
+          <Icon name="mail" />
+          Grid
+        </Link>
       </Flex>
     </Box>
   );
